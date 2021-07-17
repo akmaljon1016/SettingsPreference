@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">SettingPreference</string>
+    /*Themes*/
+    <string-array name="pref_theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="pref_theme_values">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    /*Languages*/
+    <string-array name="pref_language_entries">
+        <item>English</item>
+        <item>Uzbek</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>en</item>
+        <item>uz</item>
+    </string-array>
+    <string name="general">General</string>
+    <string name="pref_default_language_values">en</string>
+    <string name="pref_change_language_title">Change language</string>
+    <string name="pref_change_language_summary">English</string>
+    <string name="pref_change_theme_title">DarkTheme</string>
+    <string name="text">Hello world</string>
+</resources>

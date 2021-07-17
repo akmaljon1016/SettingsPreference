@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/general">
+        <ListPreference
+            android:defaultValue="@string/pref_default_language_values"
+            android:entries="@array/pref_language_entries"
+            android:key="change_language"
+            android:summary="@string/pref_change_language_summary"
+            android:title="@string/pref_change_language_title"
+            app:entryValues="@array/pref_language_values" />
+    </PreferenceCategory>
+    <SwitchPreference
+        android:key="change_theme"
+        android:title="@string/pref_change_theme_title"
+        app:defaultValue="false" />
+</PreferenceScreen>
